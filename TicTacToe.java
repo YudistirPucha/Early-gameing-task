@@ -348,7 +348,7 @@ public class TicTacToe extends JFrame implements ActionListener
 			whoseWon();
 			//If there is no win combination and it's not a draw  then the program will change player and a message will appear saying it is the players turn.
 		
-			JOptionPane.showMessageDialog(null, "Your Turn.");
+			
 			Methods.PlayerChange();
 		}
 
